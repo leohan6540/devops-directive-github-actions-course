@@ -4,8 +4,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  say-hello-inline-bash:
+  job-name-and-unique-identifier:
     runs-on: ubuntu-24.04
     steps:
-      - name: 이름 테스트
+      - name: alias Come on
         run: echo "Hello from an inline bash script in a GitHub Action Workflow!"
