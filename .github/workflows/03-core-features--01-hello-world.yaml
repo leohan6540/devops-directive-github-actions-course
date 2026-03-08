@@ -1,4 +1,4 @@
-name: Hello World
+name: 내 맘대로 이름 변경
 
 on:
   workflow_dispatch:
@@ -7,4 +7,5 @@ jobs:
   say-hello-inline-bash:
     runs-on: ubuntu-24.04
     steps:
-      - run: echo "Hello from an inline bash script in a GitHub Action Workflow!"
+      - name: 이름 테스트
+        run: echo "Hello from an inline bash script in a GitHub Action Workflow!"
